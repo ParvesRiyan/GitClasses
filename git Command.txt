@@ -78,6 +78,16 @@ for save or exit from the vim editor to type
 ====> Esc {:wq} for save and quit
 ====> Esc {q} for quit to unsave the file 
 
+
+*--- for unstaged the staged file from the git
+===> git restore --stage filename
+
+*--- for after make any fault to make it curret and back to previous file to type
+====> git checkout -- filename {!important}
+
+*--- after modified anything if you want to go back the preveous commit to type
+===> git checkout -f
+
 <-- created the .gitignore file for do not show the file in the git represotory -->
 
 <-- for check the current directory path to type [pwd] -->
