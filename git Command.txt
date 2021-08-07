@@ -1,0 +1,98 @@
+* first command to show the status
+===> git status
+
+
+* - add the folder into the intialized in the git
+
+====> git init
+
+* - check the tracked file and make it in the stage 
+
+for all file
+=====> git add --a
+for indivisual folder 
+====> git add foldername
+
+* --  for commit the folder from the staged file to type
+
+for all file
+===> git commit .
+for indivusial
+===> git commit filename 
+commit with message
+===> git commit -m "type your messages"
+
+
+* -- to know changed/different into the  betwien directory of staged and working directory -->
+
+===> git diff
+
+*-- to know the changed/differnt of before dir and present staged dir to type
+
+===> git diff --staged
+    
+*-- for skip the staged and directly commit the file in the commited to type 
+
+====> git commit -a -m "type youe messages here" <--file should be in the tracked -->
+
+
+*-- for remove the file in the git to type 
+====> git rm filename 
+
+*-- to rename the file and auto get the staged to type in the git 
+=====> git rm filename  rename
+
+*--for making clone something to from the git hub ans save into the folder to type
+
+====> git clone URLlink foldername
+
+*--- get the file in the untrack and save in to the gitignore to type
+/ remove from the tracked and if it in the gitignore file to ignore from the git it will work
+====> git rm --cached filename 
+
+*-- for show the commit and also differnt to show to type
+
+for all
+====>git log -p 
+open to selected commit
+====>git log -p -2/3
+to show the commit sort summery type
+===> git log --stat
+to show the all commit in oneline to type
+====> git log --pretty=oneline
+to show the commit in short to type
+====> git log --pretty=short
+to show little bit more info to type
+====> git log --pretty=full
+to show the commie by days/weeks/months/years
+====> git log --since=2.days
+===> git log --since=2.weeks
+===> git log --since=2.months
+====> git log --since=2.years
+to show the only cmmit and auther name/email => {%an / %ae} to know more visit git scm website
+to show the all parsone data who is by commited or auther visit git scm to more diploy
+===> git log --pretty=format:"%h -- %an"
+
+to change any commit and commit messages to type
+====>git commit --amend {amend means change}
+
+to type anythign in to the vim editor 
+===> i {to start the edit in the vim}
+
+for save or exit from the vim editor to type
+====> Esc {:wq} for save and quit
+====> Esc {q} for quit to unsave the file 
+
+<-- created the .gitignore file for do not show the file in the git represotory -->
+
+<-- for check the current directory path to type [pwd] -->
+
+<-- for checking the list in the directory in the current path to type [ls]-->
+
+<-- for changed the directory from the current path folder to type [cd] -->
+
+<-- for created the dir and folder by command line to type [touch/mkdir] --> 
+
+
+
+
