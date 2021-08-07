@@ -3,7 +3,6 @@
 
 
 * - add the folder into the intialized in the git
-
 ====> git init
 
 * - check the tracked file and make it in the stage 
@@ -24,15 +23,12 @@ commit with message
 
 
 * -- to know changed/different into the  betwien directory of staged and working directory -->
-
 ===> git diff
 
 *-- to know the changed/differnt of before dir and present staged dir to type
-
 ===> git diff --staged
     
 *-- for skip the staged and directly commit the file in the commited to type 
-
 ====> git commit -a -m "type youe messages here" <--file should be in the tracked -->
 
 
@@ -43,7 +39,6 @@ commit with message
 =====> git rm filename  rename
 
 *--for making clone something to from the git hub ans save into the folder to type
-
 ====> git clone URLlink foldername
 
 *--- get the file in the untrack and save in to the gitignore to type
