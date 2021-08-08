@@ -78,15 +78,74 @@ for save or exit from the vim editor to type
 ====> Esc {:wq} for save and quit
 ====> Esc {q} for quit to unsave the file 
 
+*--- for making your command sort or you can make your own command to type
+===>git config --global alias.{chose your own command} {typw your changeing command}
+
 
 *--- for unstaged the staged file from the git
 ===> git restore --stage filename
+
+*-- for go back from your present to past
+===>git restore filename
 
 *--- for after make any fault to make it curret and back to previous file to type
 ====> git checkout -- filename {!important}
 
 *--- after modified anything if you want to go back the preveous commit to type
 ===> git checkout -f
+
+*-- for make your own brance or create some new brance to do something separetly and without lost your previous work .
+===>git checkout -b brancename [for creat new brance]
+
+*--- for change your brance or move your master brance or switch to another branch to type
+=====> git checkout branchname
+
+*---- for show the branch name to type
+====> git branch
+
+*---- for add the new created branch in the master branch to type 
+====> git merge branchname
+
+*--- for open the vim editor and type the same commit to tyep 
+====> git commit
+
+*--- for show the last commit and commit hash with your last or current branch.
+====> git branch -v
+
+*---for show the merged branched in the master beanched to type
+====> git branch --merged
+
+*--- for show the not merged beanched in any where to show type
+====> git branch -- no-merged 
+
+*----for delete the branch to type with warning 
+====> git branch -d branchname
+confrim to delet
+====> git branch -D branchname
+
+*--- for push the branche in the github acc or remote as a branch to type
+====> git push {remot project name} { current branch name}
+
+*--- to change the branch name in the remot to type 
+====> git push {remote projectt name} {branchname:newbranchname}
+
+*--- to check the remote to type 
+====> git remote -v
+
+*---- for added the remote in the git to type
+====> git remote add setname {git represotry link from github server}
+
+ 
+*--- for push the project from the remote represotry to type
+====> git push -u {reprository name/ origin} {branchname/ master}
+
+*--- for delete the branch from the remote by git bash to type 
+====> git push -d {reprisotry project name / origin} {deleted branch name}
+
+
+
+
+
 
 <-- created the .gitignore file for do not show the file in the git represotory -->
 
